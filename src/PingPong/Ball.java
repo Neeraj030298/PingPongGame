@@ -20,6 +20,7 @@ public class Ball extends Rectangle{
         int randomYDirection = random.nextInt(2);
         if(randomYDirection == 0)
             randomYDirection--;
+
         setYDirection(randomYDirection*initialSpeed);
 
     }
